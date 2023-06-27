@@ -1,0 +1,44 @@
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+
+}
+.logo
+ {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+ul
+{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.hero
+{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+.text
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-container
+{
+    display: flex;
+}
