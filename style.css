@@ -86,7 +86,7 @@ button
     justify-content: center;
     align-items: center;
     color: #1f2937;
-    font-weight: extra-bold;
+    font-weight: bolder;
     font-size: 36px;
     padding: 60px;
     padding-bottom: 0px;
@@ -123,18 +123,33 @@ button
   width: 200px;
   flex-wrap: wrap;
 }
+.info-text
+{
+    padding-top: 16px;
+    font-size: 22px;
+}
+.images img
+{
+    border: #3882f6 solid 4px;
+    border-radius: 25px;
+}
 .quote
 {
     background-color: #e5e7eb;
-    font-size: 36px;
-    color: #1f2937;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
 }
-/*doesnt work*/
-p
+
+.quote p
 {
     display: flex;
     justify-self: flex-end;
+}
+em
+{
+    width: 900px;
+    font-size: 36px;
+    color: #1f2937;
 }
